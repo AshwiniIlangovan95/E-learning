@@ -1,0 +1,79 @@
+.content{
+    font-family: 'Roboto', sans-serif;
+    background-color: #858484;
+    background-image: url("../../../../public/assets/Images/background.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    padding-right: 70px;
+    color: #04736a;
+}
+
+.content #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    background-position: right;
+    
+}
+
+.signup-link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+
+.signup-button{
+    background-color: #1eb2a6;
+    justify-content: center;
+    padding: 15px 25px;
+    text-decoration:none;
+    text-align: center;
+    width: 35%;
+    margin-right: 0px;
+    font-weight: 500;
+    transition: 0.5s;
+    a{
+        color: #fff;
+    }
+}
+
+.signup-button:hover{
+    background-color: #fff;
+    a{
+        color: #04736a;
+    }
+}
+
+.viewcourses-button{
+    background-color: white;
+    
+    padding: 15px 25px;
+    text-decoration: none;
+    width: 35%;
+    a{
+        color: #04736a;
+        font-weight: 500;
+    }
+}
+
+.viewcourses-button:hover{
+    background-color: #1eb2a6;
+    a{
+        color: #fff;
+    }
+}
+
+.Link{
+    color: #04736a;
+}

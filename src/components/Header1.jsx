@@ -3,11 +3,12 @@ import Head from "./Head1"
 import "./Header.css"
 import { Link, Outlet } from "react-router-dom";
 
-const Header = ()=>{
+const Header = (props)=>{
+    console.log(props);
     // const [click, setClick]=useState(false)
     return(
         <div>
-            <Head/>
+            <Head courses={props.courses}/>
             <div className="Header">
                 <nav className="flexSB">
                     {/* <ul className={click ? "mobile-nav": "flexSB"} onClick={()=> setClick(false)}> */}
@@ -21,14 +22,12 @@ const Header = ()=>{
                         <li>
                              <Link to="/about">About</Link>
                         </li>
-                        <li>
-                             <Link to="/pricing">Pricing</Link>
-                        </li>
+                        
                         <li>
                              <Link to="/team">Team</Link>
                         </li>
                         <li>
-                             <Link to="/contact">Contact</Link>
+                             <Link to="/Contact">Contact</Link>
                         </li>
                     </ul>
                     <div className="start">

@@ -1,7 +1,10 @@
 .Head{
     padding: 20px 0;
     color: #04736a;
+    z-index: 1 ;
+    position: relative;
 }
+
 
 .logo h1{
     font-size: 35px;
@@ -16,6 +19,9 @@
     background-color: rgba(255,255,255,0.2);
     margin: 0 30px;
     padding: 0px;
+    z-index: 1 ;
+    position: relative;
+
 }
 
 .Header ul{
@@ -30,7 +36,9 @@
     color: #fff;
     font-weight: 500;
     transition: 0.5s;
+    text-decoration: none;
 }
+
 
 .Header ul li a:hover {
     color: #1eb2a6;
@@ -43,3 +51,31 @@
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100% );
 }
 
+.social{
+    align-items: left;
+}
+
+.containerflex{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cart{
+    color: #04736a;;
+    padding: 8px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 45px
+}
+
+.cart:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+a:link{
+    text-decoration: none;
+}

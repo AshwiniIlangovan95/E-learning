@@ -1,12 +1,16 @@
 import React from "react";
 import Back from "../Back";
-import './about.css'
+import './about.scss';
+import AboutCard from "./aboutcard";
 
 function About() {
     return(
-        <div>
-            
+        <div className="about">
+            <div>
             <Back title='About Us'/> 
+            </div>
+            
+            <AboutCard/>
         </div>
     )
 }

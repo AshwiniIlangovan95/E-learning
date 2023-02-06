@@ -5,30 +5,20 @@
   box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #858484;
-    background-image: url("../public/assets/Images/background.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    padding-top: 20px;
-    padding-right: 50px;
-    color: #04736a;
+html{
+  height: 100%;
 }
 
+
+
+
 .container{
-  max-width: 85%;
+  max-width: 85% !important;
   margin:auto
 }
 
 .flexSB{
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   
 }
@@ -109,22 +99,7 @@ p {
   font-size: 18px;
 }
 
-.back{
-  background-image: url("../public/assets/Images/background2.webp");
-    background-size: cover;
-    background-attachment: fixed;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    padding-top: 20px;
-    padding-right: 50px;
-    color: #04736a;
-    text-align: center;
-    
-}
+
 
 .back h1{
   font-size: 100px;
@@ -140,6 +115,3 @@ p {
   margin-bottom: 0;
 }
 
-.margin{
-  margin-top: 40.3%;
-}
